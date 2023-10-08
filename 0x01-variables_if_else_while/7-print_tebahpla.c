@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print numbers 0-9 without using printf
+ * main - print lowercase alphabets in reverse
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n;
+	char c;
 
-	for (n = 0; n < 10; n++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		putchar(n + '0');
+		putchar(c);
 	}
 	putchar('\n');
 
